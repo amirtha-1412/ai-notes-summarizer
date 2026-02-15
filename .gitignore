@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Models (if cached locally)
+models/
+*.bin
+*.pt
+*.pth
+
+# Data
+data/
+*.pdf
+*.docx
+*.txt
+
+# Logs
+*.log
+
+# Test files
+test_*.py
+*_test.py
+
+# Temporary scripts
+remove_*.py
+clean_*.py
+
+# Brain/artifacts directory
+.gemini/
